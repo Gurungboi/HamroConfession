@@ -13,10 +13,45 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    /************************* FUNCTION *************************/
+    func navigationBar() {
+        let navigationBarAppearace = UINavigationBar.appearance()
+        
+        navigationBarAppearace.barTintColor = barTintColor
+        navigationBarAppearace.isTranslucent = false
+        navigationBarAppearace.tintColor = white
+        navigationBarAppearace.titleTextAttributes = [kCTForegroundColorAttributeName: tiniColor] as [NSAttributedStringKey : Any]
+        UIApplication.shared.statusBarStyle = .lightContent
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        
+    }
+    
+    func viewSetup() {
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+        UINavigationBar.appearance().tintColor = white
+        
+        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let navigationController:UINavigationController = storyboard.instantiateInitialViewController() as! UINavigationController
+        let rootViewController:HomeViewController = storyboard.instantiateViewController(withIdentifier: "homeVC") as! HomeViewController
+        /*
+        let defaults = UserDefaults.standard
+        let userFBInfo = defaults.value(forKey: "fbimage")
+        
+        if (userFBInfo != nil)
+        {
+            navigationController.viewControllers = [rootViewController]
+            self.window?.rootViewController = navigationController
+            
+        }
+ */
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        navigationBar()
+        viewSetup()
         return true
     }
 

@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		2E0F905C20ECF2F000635D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F905B20ECF2F000635D84 /* AppDelegate.swift */; };
-		2E0F905E20ECF2F000635D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F905D20ECF2F000635D84 /* ViewController.swift */; };
 		2E0F906120ECF2F000635D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F905F20ECF2F000635D84 /* Main.storyboard */; };
 		2E0F906420ECF2F000635D84 /* HamroConfession.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F906220ECF2F000635D84 /* HamroConfession.xcdatamodeld */; };
 		2E0F906620ECF2F300635D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F906520ECF2F300635D84 /* Assets.xcassets */; };
 		2E0F906920ECF2F300635D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F906720ECF2F300635D84 /* LaunchScreen.storyboard */; };
+		2E0F907620ECF34F00635D84 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F907520ECF34F00635D84 /* LoginViewController.swift */; };
+		2E0F907820ECF35C00635D84 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F907720ECF35C00635D84 /* HomeViewController.swift */; };
+		2E0F907A20ECF36500635D84 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F907920ECF36500635D84 /* SettingViewController.swift */; };
+		2E0F907C20ECF37000635D84 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F907B20ECF37000635D84 /* WebsiteViewController.swift */; };
+		2E0F907E20ECF38B00635D84 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F907D20ECF38B00635D84 /* SettingTableViewCell.swift */; };
+		2E0F908020ECF39900635D84 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F907F20ECF39900635D84 /* Color.swift */; };
+		2E0F908220ECF48700635D84 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F908120ECF48700635D84 /* Utilities.swift */; };
+		2E0F909320ECFE1100635D84 /* pp.html in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F909020ECFE1100635D84 /* pp.html */; };
+		2E0F909420ECFE1100635D84 /* tc.html in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F909120ECFE1100635D84 /* tc.html */; };
+		2E0F909520ECFE1100635D84 /* about_us.html in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F909220ECFE1100635D84 /* about_us.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E0F905820ECF2F000635D84 /* HamroConfession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamroConfession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0F905B20ECF2F000635D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E0F905D20ECF2F000635D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E0F906020ECF2F000635D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E0F906320ECF2F000635D84 /* HamroConfession.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HamroConfession.xcdatamodel; sourceTree = "<group>"; };
 		2E0F906520ECF2F300635D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0F906820ECF2F300635D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0F906A20ECF2F300635D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0F907520ECF34F00635D84 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2E0F907720ECF35C00635D84 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E0F907920ECF36500635D84 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2E0F907B20ECF37000635D84 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		2E0F907D20ECF38B00635D84 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		2E0F907F20ECF39900635D84 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2E0F908120ECF48700635D84 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2E0F909020ECFE1100635D84 /* pp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pp.html; sourceTree = "<group>"; };
+		2E0F909120ECFE1100635D84 /* tc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tc.html; sourceTree = "<group>"; };
+		2E0F909220ECFE1100635D84 /* about_us.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_us.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +74,11 @@
 		2E0F905A20ECF2F000635D84 /* HamroConfession */ = {
 			isa = PBXGroup;
 			children = (
+				2E0F907420ECF33800635D84 /* Utility */,
+				2E0F907320ECF32D00635D84 /* Controller */,
+				2E0F907220ECF32800635D84 /* Model */,
+				2E0F907120ECF32300635D84 /* View */,
 				2E0F905B20ECF2F000635D84 /* AppDelegate.swift */,
-				2E0F905D20ECF2F000635D84 /* ViewController.swift */,
 				2E0F905F20ECF2F000635D84 /* Main.storyboard */,
 				2E0F906520ECF2F300635D84 /* Assets.xcassets */,
 				2E0F906720ECF2F300635D84 /* LaunchScreen.storyboard */,
@@ -65,6 +86,60 @@
 				2E0F906220ECF2F000635D84 /* HamroConfession.xcdatamodeld */,
 			);
 			path = HamroConfession;
+			sourceTree = "<group>";
+		};
+		2E0F907020ECF31E00635D84 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F907F20ECF39900635D84 /* Color.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		2E0F907120ECF32300635D84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F907D20ECF38B00635D84 /* SettingTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E0F907220ECF32800635D84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E0F907320ECF32D00635D84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F907520ECF34F00635D84 /* LoginViewController.swift */,
+				2E0F907720ECF35C00635D84 /* HomeViewController.swift */,
+				2E0F907920ECF36500635D84 /* SettingViewController.swift */,
+				2E0F907B20ECF37000635D84 /* WebsiteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E0F907420ECF33800635D84 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F908320ECFCE100635D84 /* HTML */,
+				2E0F907020ECF31E00635D84 /* Constant */,
+				2E0F908120ECF48700635D84 /* Utilities.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2E0F908320ECFCE100635D84 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F909220ECFE1100635D84 /* about_us.html */,
+				2E0F909020ECFE1100635D84 /* pp.html */,
+				2E0F909120ECFE1100635D84 /* tc.html */,
+			);
+			path = HTML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +200,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0F909420ECFE1100635D84 /* tc.html in Resources */,
 				2E0F906920ECF2F300635D84 /* LaunchScreen.storyboard in Resources */,
+				2E0F909520ECFE1100635D84 /* about_us.html in Resources */,
 				2E0F906620ECF2F300635D84 /* Assets.xcassets in Resources */,
+				2E0F909320ECFE1100635D84 /* pp.html in Resources */,
 				2E0F906120ECF2F000635D84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0F905E20ECF2F000635D84 /* ViewController.swift in Sources */,
+				2E0F907A20ECF36500635D84 /* SettingViewController.swift in Sources */,
+				2E0F907620ECF34F00635D84 /* LoginViewController.swift in Sources */,
+				2E0F907E20ECF38B00635D84 /* SettingTableViewCell.swift in Sources */,
 				2E0F905C20ECF2F000635D84 /* AppDelegate.swift in Sources */,
 				2E0F906420ECF2F000635D84 /* HamroConfession.xcdatamodeld in Sources */,
+				2E0F908020ECF39900635D84 /* Color.swift in Sources */,
+				2E0F908220ECF48700635D84 /* Utilities.swift in Sources */,
+				2E0F907C20ECF37000635D84 /* WebsiteViewController.swift in Sources */,
+				2E0F907820ECF35C00635D84 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
